@@ -1,2 +1,3 @@
-# shopmysupply-website
-Official website for MY Supply Co
+# MY Supply Co Website
+
+Official static website for MY Supply Co.
