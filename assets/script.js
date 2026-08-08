@@ -76,7 +76,7 @@ function renderCatalog(category){
   const meta=CATEGORY_TAXONOMY[category];
   const subs=availableSubcategories(category);
   catalogTitle.textContent=meta.name;
-  catalogIntro.textContent=subs.length?'Choose an available subcategory below. Only subcategories with active products are shown.':'No active products have been added to this category yet.';
+  catalogIntro.textContent=subs.length?'Browse available products by subcategory.':'New products are coming soon.';
   subcategoryNav.innerHTML='';
   if(subs.length){
     const all=document.createElement('button');

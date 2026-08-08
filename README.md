@@ -13,3 +13,7 @@ Example:
 ```
 
 Set `active:false` to remove a product from the storefront without deleting its record.
+
+
+## Customer-facing empty states
+Empty categories now use customer-facing “Products coming soon” messaging. Product-driven subcategory visibility is unchanged.
