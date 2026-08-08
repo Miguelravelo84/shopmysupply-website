@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>MY Supply Co | Reliable Products for Everyday Needs</title>
-  <meta name="description" content="MY Supply Co is a Texas-based online retailer and supply company offering practical products across automotive, tools, home, and business categories.">
+  <meta name="description" content="MY Supply Co is a Texas-based online retailer and supply company offering practical products across automotive, tools, home, grocery, hair and beauty, health and fitness, and business categories.">
   <meta name="theme-color" content="#111111">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/styles.css">
@@ -71,45 +71,92 @@
         </div>
 
         <div class="category-grid">
-          <a class="category-card automotive" href="#contact">
+          <a class="category-card automotive" href="#catalog" data-category="automotive" data-active="true">
             <div class="category-shade"></div>
             <div class="category-content">
               <span>01</span>
               <h3>Automotive</h3>
               <p>Care, maintenance, organization, and useful vehicle accessories.</p>
-              <strong>Ask about availability →</strong>
+              <strong>View products →</strong>
             </div>
           </a>
 
-          <a class="category-card tools" href="#contact">
+          <a class="category-card tools" href="#catalog" data-category="tools-hardware" data-active="true">
             <div class="category-shade"></div>
             <div class="category-content">
               <span>02</span>
               <h3>Tools & Hardware</h3>
               <p>Shop essentials, repair tools, hardware, and practical equipment.</p>
-              <strong>Ask about availability →</strong>
+              <strong>View products →</strong>
             </div>
           </a>
 
-          <a class="category-card home" href="#contact">
+          <a class="category-card home" href="#catalog" data-category="home-living" data-active="true">
             <div class="category-shade"></div>
             <div class="category-content">
               <span>03</span>
               <h3>Home & Living</h3>
               <p>Storage, cleaning, household, organization, and daily-use products.</p>
-              <strong>Ask about availability →</strong>
+              <strong>View products →</strong>
             </div>
           </a>
 
-          <a class="category-card business" href="#contact">
+          <a class="category-card grocery" href="#catalog" data-category="grocery" data-active="true">
             <div class="category-shade"></div>
             <div class="category-content">
               <span>04</span>
-              <h3>Business Supplies</h3>
-              <p>Packaging, office, shipping, operational, and workplace essentials.</p>
-              <strong>Ask about availability →</strong>
+              <h3>Grocery</h3>
+              <p>Pantry staples, snacks, beverages, coffee, tea, and packaged everyday foods.</p>
+              <strong>View products →</strong>
             </div>
           </a>
+
+          <a class="category-card business" href="#catalog" data-category="business-supplies" data-active="true">
+            <div class="category-shade"></div>
+            <div class="category-content">
+              <span>05</span>
+              <h3>Business Supplies</h3>
+              <p>Packaging, office, shipping, operational, and workplace essentials.</p>
+              <strong>View products →</strong>
+            </div>
+          </a>
+
+          <a class="category-card beauty" href="#catalog" data-category="hair-beauty" data-active="true">
+            <div class="category-shade"></div>
+            <div class="category-content">
+              <span>06</span>
+              <h3>Hair &amp; Beauty</h3>
+              <p>Hair care, skin care, personal care, styling, grooming, and beauty essentials.</p>
+              <strong>View products →</strong>
+            </div>
+          </a>
+
+          <a class="category-card fitness" href="#catalog" data-category="health-fitness" data-active="true">
+            <div class="category-shade"></div>
+            <div class="category-content">
+              <span>07</span>
+              <h3>Health &amp; Fitness</h3>
+              <p>Wellness, exercise, recovery, mobility, and everyday fitness products.</p>
+              <strong>View products →</strong>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section catalog-section" id="catalog">
+      <div class="container">
+        <div class="section-heading">
+          <span class="kicker dark">Current catalog</span>
+          <h2 id="catalog-title">Products by category</h2>
+          <p id="catalog-intro">Choose a category above. Subcategories appear only when at least one active product is assigned to them.</p>
+        </div>
+        <div id="subcategory-nav" class="subcategory-nav" aria-label="Available subcategories"></div>
+        <div id="product-grid" class="product-grid"></div>
+        <div id="catalog-empty" class="catalog-empty">
+          <strong>No products are listed in this category yet.</strong>
+          <span>As inventory is added, only subcategories containing active products will appear here.</span>
         </div>
       </div>
     </section>
