@@ -26,7 +26,8 @@ const CATEGORY_TAXONOMY={
   'grocery':{name:'Grocery',subcategories:['Coffee & Tea','Snacks','Beverages','Pantry Staples','Candy & Chocolate','Breakfast Foods','Condiments & Sauces','Baking','Canned & Packaged Foods']},
   'business-supplies':{name:'Business Supplies',subcategories:['Packaging & Shipping','Office Supplies','Labels & Printing','Cleaning & Janitorial','Workplace Essentials','Storage']},
   'hair-beauty':{name:'Hair & Beauty',subcategories:['Hair Care','Skin Care','Personal Care','Styling','Grooming','Beauty Tools & Accessories']},
-  'health-fitness':{name:'Health & Fitness',subcategories:['Fitness Accessories','Wellness','Recovery & Mobility','Sports Nutrition','Vitamins & Supplements','Exercise Equipment']}
+  'health-fitness':{name:'Health & Fitness',subcategories:['Fitness Accessories','Wellness','Recovery & Mobility','Sports Nutrition','Vitamins & Supplements','Exercise Equipment']},
+  'pet-supplies':{name:'Pet Supplies',subcategories:['Dog Food & Treats','Dog Toys','Dog Grooming','Dog Collars, Leashes & Harnesses','Dog Beds & Accessories','Cat Food & Treats','Cat Litter & Litter Supplies','Cat Toys','Cat Grooming','Cat Beds & Accessories','Small Animal Supplies','Bird Supplies','Fish & Aquarium Supplies','Pet Health & Wellness','Cleaning & Odor Control']}
 };
 
 // PRODUCT DATA
